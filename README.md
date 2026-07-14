@@ -1,5 +1,7 @@
 # Payment Orchestration Lab
 
+[![CI](https://github.com/sevakode/payment-orchestration-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/sevakode/payment-orchestration-lab/actions/workflows/ci.yml)
+
 A small, production-minded TypeScript reference implementation of the hard parts around a payment cascade: deterministic routing, idempotency, explicit state transitions, provider fallback, and reliable event delivery.
 
 > **Synthetic project:** every provider, identifier, payment, failure, and event in this repository is fictional. The code was created as an independent reference implementation and contains no employer code, production data, private infrastructure details, credentials, or real provider integrations.
